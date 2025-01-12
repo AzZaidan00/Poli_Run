@@ -1,6 +1,9 @@
 /build
 ### Android ###
 
+# Ignore all JSON files
+*.json
+
 # built application files
 *.apk
 *.ap_
