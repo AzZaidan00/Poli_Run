@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "869743497804",
+    "firebase_url": "https://polirunningno-default-rtdb.firebaseio.com",
+    "project_id": "polirunningno",
+    "storage_bucket": "polirunningno.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869743497804:android:a47117d67f4f1aeb325ae9",
+        "android_client_info": {
+          "package_name": "com.azim.poli_run"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSqMfyCxqtd7lUvnWN1Rv5VfBYMSVOmAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869743497804:android:e5b2ddb44da3cac4325ae9",
+        "android_client_info": {
+          "package_name": "com.azim.poli_running_no"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSqMfyCxqtd7lUvnWN1Rv5VfBYMSVOmAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
