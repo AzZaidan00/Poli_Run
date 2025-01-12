@@ -1,62 +1,70 @@
 /build
-### Android ###
-
-# Ignore all JSON files
-*.json
-
-# built application files
-*.apk
-*.ap_
-*.aab
-
-# generated files
-*.dex
-*.class
-*.jar
-*.war
-*.ear
-*.so
-
-# IntelliJ IDEA
-.idea/
-*.iml
-*.iws
-
-# Gradle
+# Gradle files
 .gradle/
 build/
-*/build/
-gradle-app.setting
-gradle-wrapper.jar
-gradle-wrapper.properties
-
-# Local configuration file (Android Studio)
+.idea/
 local.properties
-.idea/libraries/
+
+# User-specific files
+*.iml
+*.iws
+*.ipr
+
+# Android Studio project files
+/.idea/
+/*.iml
+/out/
 
 # OS generated files
 .DS_Store
 Thumbs.db
 
-# Kotlin
-*.kotlin_metadata
+# Android build output
+/build/
 
-# Android Studio specific
-captures/
+# Android specific config files
+*.apk
+*.ap_
 
-# Maven
-.mvn/
-target/
+# Ignore the keystore files (they should not be versioned)
+*.jks
+*.keystore
+*.p12
 
-# NDK
-obj/
+# Ignore sensitive environment variables or configuration files
+.env
+config.json
+local_config.xml
 
-# JetBrains
+# Ignore log files
 *.log
 
-# User-specific configuration files
-*.swp
-*~
+# Ignore the directory that stores intermediate files for build caches
+/caches/
 
-# .vscode configuration
-.vscode/
+# Ignore Gradle wrapper files (optional)
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore all other auto-generated files from Android Studio and Kotlin
+.idea/
+.gradle/
+local.properties
+
+# Ignore sensitive data like API keys stored in strings or other resources
+res/values/secrets.xml
+res/values/api_keys.xml
+
+# Ignore Firebase settings files if not needed in repo
+google-services.json
+google-services.plist
+
+# Ignore Gradle build outputs, intermediate files, and logs
+/build/
+
+# Ignore dependency caches
+.gradle/
+
+# Ignore native build folders (if using C++ or NDK)
+.obj/
+.libs/
