@@ -1,1 +1,59 @@
 /build
+### Android ###
+
+# built application files
+*.apk
+*.ap_
+*.aab
+
+# generated files
+*.dex
+*.class
+*.jar
+*.war
+*.ear
+*.so
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Gradle
+.gradle/
+build/
+*/build/
+gradle-app.setting
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Local configuration file (Android Studio)
+local.properties
+.idea/libraries/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Kotlin
+*.kotlin_metadata
+
+# Android Studio specific
+captures/
+
+# Maven
+.mvn/
+target/
+
+# NDK
+obj/
+
+# JetBrains
+*.log
+
+# User-specific configuration files
+*.swp
+*~
+
+# .vscode configuration
+.vscode/
